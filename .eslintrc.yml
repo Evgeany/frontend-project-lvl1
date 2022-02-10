@@ -24,5 +24,8 @@ rules:
   semi:
     - error
     - always
-   eol-last: 0
-      
+  eol-last:
+    - off
+    - always
+    
+        
