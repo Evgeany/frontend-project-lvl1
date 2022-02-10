@@ -13,10 +13,10 @@ rules:
     - js: always
   no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
   indent:
-    - error
+    - off
     - tab
   linebreak-style:
-    - error
+    - warn
     - unix
   quotes:
     - error
@@ -24,3 +24,5 @@ rules:
   semi:
     - error
     - always
+   eol-last:
+      -off
