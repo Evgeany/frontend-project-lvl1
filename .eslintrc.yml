@@ -25,4 +25,4 @@ rules:
     - error
     - always
    eol-last:
-      -off
+      -never
