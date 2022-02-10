@@ -1,8 +1,15 @@
 name: make-lint
-on: push
+on: 
+push:
 jobs:
   make-lint-job:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+     with:
+        node-version: '17.x'
+      - name: make-install-step
+        run: make install
       - name: make-lint-step
-        run: npx eslint .
+        run: make lint
