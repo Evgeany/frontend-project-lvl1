@@ -1,3 +1,3 @@
-import {greetingsFunc} from '../src/cli.js'
+import  greetingsFunc from '../src/cli.js';
 
-greetingsFunc()
+greetingsFunc();
