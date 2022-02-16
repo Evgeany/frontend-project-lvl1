@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import { greetingsFunc } from '../src/cli.js';
+import greetingsFunc from '../src/cli.js';
 
-console.log(`Hello, ${greetingsFunc()}`)
+console.log(`Hello, ${greetingsFunc()}`);
