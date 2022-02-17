@@ -1,8 +1,7 @@
 import readlineSync from 'readline-sync';
-import { greetingPhrase, getName } from '../src/cli.js'
+import { greetingPhrase, getName } from './cli.js';
 
 export const isEvenQuestion = () => {
-
     let counter = 0;
 
     console.log(greetingPhrase);
@@ -10,11 +9,9 @@ export const isEvenQuestion = () => {
     console.log(`Hello, ${name}!`);
     console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
-    const getRandomInt = (min, max) => {
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
+    const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
-    for (let i = 3; i > 0; i--) {
+    for (let i = 3; i > 0; i -= 1) {
         const item = getRandomInt(1, 100);
 
         console.log(`Question: ${item}`);

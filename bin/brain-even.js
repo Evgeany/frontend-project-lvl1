@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import isEvenQuestion from '../src/cli-even.js';
+import { isEvenQuestion } from '../src/cli-even.js';
 
-isEvenQuestion()
+isEvenQuestion();
