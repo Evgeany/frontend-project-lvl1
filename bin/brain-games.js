@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
-import greetingsFunc from '../src/cli.js';
-
-console.log(`Hello, ${greetingsFunc()}`);
+import { greetingPhrase, getName } from '../src/cli.js';
+console.log(greetingPhrase);
+const myName = getName();
+console.log(`Hello, ${myName}`);
+console.log(`my name is ${myName}`)
