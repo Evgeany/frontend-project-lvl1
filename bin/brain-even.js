@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-import { greetingPhrase, getName } from '../src/cli.js';
+import isEvenQuestion from '../src/cli-even.js';
 
-console.log(greetingPhrase);
-const myName = getName();
-console.log(`Hello, ${myName}`);
+isEvenQuestion()
