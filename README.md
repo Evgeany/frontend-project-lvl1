@@ -3,5 +3,7 @@
 
 [![run lint](https://github.com/Evgeany/frontend-project-lvl1/actions/workflows/evg-hex-lint.yml/badge.svg?event=push )](https://github.com/Evgeany/frontend-project-lvl1/actions)
 
+https://asciinema.org/a/mU52yQ1ZjwPJfvlU9uBD3z9ci
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Evgeany/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Evgeany/frontend-project-lvl1/actions)
