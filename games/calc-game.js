@@ -6,7 +6,7 @@ import modelFunc from '../src/index.js';
 
 const question = 'What is the result of the expression?';
 
-const operators = ['+', '-'];
+const operators = ['+', '-', '*'];
 
 const getResult = (int1, int2, operand) => {
     let mathresult = 0;
@@ -15,6 +15,9 @@ const getResult = (int1, int2, operand) => {
     }
     if (operand === '+') {
         mathresult = int1 + int2;
+    }
+    if (operand === '*') {
+        mathresult = int1 * int2;
     }
     return mathresult;
 };
