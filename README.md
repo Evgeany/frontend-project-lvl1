@@ -20,5 +20,13 @@
 
 <a href='https://asciinema.org/a/SeVJ5AWCNi0LlOcrTDHQtexGI'><img src='https://i2.paste.pics/657ca5c76a8d749daa328bbc5d2a8fc0.png' /></a>
 
+### Игра "НОД"
+
+Пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+
+Команда для запуска $ brain-nod
+
+<a href=' https://asciinema.org/a/9RLLSHnHWIxLlog72QWygbKdj'><img src='https://i2.paste.pics/c4025c9d49d93ddcd9e1b25545cf9c89.png' /></a>
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Evgeany/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Evgeany/frontend-project-lvl1/actions)
