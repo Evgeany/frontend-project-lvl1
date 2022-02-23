@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
-import { isEvenQuestion } from '../src/cli-even.js';
+import runEven from '../games/even-game.js';
 
-isEvenQuestion();
+// здесь будет запускаться игра путем экспортированния из логики файла - функцции.
+
+runEven();
