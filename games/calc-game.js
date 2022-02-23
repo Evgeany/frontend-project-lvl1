@@ -29,7 +29,7 @@ const createTaskAndResult = () => {
     const mathtask = `${num1} ${operator} ${num2}`;
     const result = `${getResult(num1, num2, operator)}`;
 
-    return [mathtask, result];
+    return [mathtask, result.toString()];
 };
 
 export default () => modelFunc(question, createTaskAndResult);

@@ -31,7 +31,7 @@ const createTaskAndResult = () => {
         }
     }
 
-    return [mathtask, result];
+    return [mathtask, result.toString()];
 };
 
 export default () => modelFunc(question, createTaskAndResult);
