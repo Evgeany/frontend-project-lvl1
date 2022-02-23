@@ -17,12 +17,12 @@ export default (questionReplic, createTaskAndResult) => {
 
         const usersAnswer = readlineSync.question('Your answer: ');
 
-        if (result === usersAnswer) {
+        if (result === Number(usersAnswer)) {
             console.log('Correct !');
             counter += 1;
         }
 
-        if (result !== usersAnswer) {
+        if (result !== Number(usersAnswer)) {
             console.log(`${usersAnswer} is wrong answer ;(. Correct answer was ${result}.
     Let's try again, ${name}!`);
             break;
