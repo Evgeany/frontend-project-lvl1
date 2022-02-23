@@ -1,5 +1,5 @@
-import { getRandomInt } from '../src/utility.js';
-import { modelFunc } from '../src/index.js';
+import getRandomInt from '../src/utility.js';
+import modelFunc from '../src/index.js';
 //  здесь будет описываться логика для first-calc.js
 
 // ******************** логика игры калькулятор *************************

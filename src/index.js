@@ -1,17 +1,15 @@
 import readlineSync from 'readline-sync';
 
-
 // ******************** Описание шаблона-модели игры *************************
 
-export const modelFunc = (questionReplic, createTaskAndResult) => {
-
+export default (questionReplic, createTaskAndResult) => {
     let counter = 0;
 
     console.log('Welcome to Brain Games!');
     const name = readlineSync.question('Enter your name: ');
     console.log(`Hello, ${name}!`);
 
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 3; i += 1) {
         const [mathtask, result] = createTaskAndResult();
 
         console.log(questionReplic);
@@ -29,9 +27,6 @@ export const modelFunc = (questionReplic, createTaskAndResult) => {
     Let's try again, ${name}!`);
             break;
         }
-
     }
     if (counter === 3) { console.log(`Congratulations, ${name}!`); }
-
-
-}
+};
