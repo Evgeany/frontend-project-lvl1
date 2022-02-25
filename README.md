@@ -26,7 +26,15 @@
 
 Команда для запуска $ brain-nod
 
-<a href=' https://asciinema.org/a/9RLLSHnHWIxLlog72QWygbKdj'><img src='https://i2.paste.pics/c4025c9d49d93ddcd9e1b25545cf9c89.png' /></a>
+<a href='https://asciinema.org/a/9RLLSHnHWIxLlog72QWygbKdj'><img src='https://i2.paste.pics/c4025c9d49d93ddcd9e1b25545cf9c89.png' /></a>
+
+### Игра "Арифметическая прогрессия"
+
+Показываем игроку ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
+
+Команда для запуска $ brain-progression
+
+<a href='https://asciinema.org/a/52Dc4aQwVGl9dFosGg3EBu3tM'><img src='https://i2.paste.pics/0c7299ef6beefef20f548c1f981da591.png' /></a>
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Evgeany/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Evgeany/frontend-project-lvl1/actions)
