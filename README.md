@@ -36,5 +36,13 @@
 
 <a href='https://asciinema.org/a/52Dc4aQwVGl9dFosGg3EBu3tM'><img src='https://i2.paste.pics/0c7299ef6beefef20f548c1f981da591.png' /></a>
 
+### Игра "Простое ли число?"
+
+Показываем игроку число. Игрок должен определить простое ли оно. 
+
+Команда для запуска $ brain-prime
+
+<a href='https://asciinema.org/a/2wYLGDhkZJY8gq8r3AHHNjw69'><img src='https://i2.paste.pics/e4e97579802e358936bf18fac50cafed.png' /></a>
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Evgeany/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Evgeany/frontend-project-lvl1/actions)
