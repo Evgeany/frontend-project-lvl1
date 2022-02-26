@@ -1,6 +1,6 @@
 import getRandomInt from '../src/utility.js';
 import modelFunc from '../src/index.js';
-//  здесь будет описываться логика для first-calc.js
+//  здесь будет описываться логика для brain-calc.js
 
 // ******************** логика игры калькулятор *************************
 

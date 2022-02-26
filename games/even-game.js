@@ -1,7 +1,7 @@
 import getRandomInt from '../src/utility.js';
 import modelFunc from '../src/index.js';
 
-//  здесь будет описываться логика для first-even.js
+//  здесь будет описываться логика для brain-even.js
 
 // ******************** логика игры на четность *************************
 
