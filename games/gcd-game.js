@@ -7,31 +7,31 @@ import modelFunc from '../src/index.js';
 const question = 'Find the greatest common divisor of given numbers.';
 
 const createTaskAndResult = () => {
-    const num1 = getRandomInt();
-    const num2 = getRandomInt();
+  const num1 = getRandomInt();
+  const num2 = getRandomInt();
 
-    const minNum = Math.min(num1, num2);
-    const maxNum = Math.max(num1, num2);
+  const minNum = Math.min(num1, num2);
+  const maxNum = Math.max(num1, num2);
 
-    const mathtask = `${num1} ${num2}`;
+  const mathtask = `${num1} ${num2}`;
 
-    let result = 0;
+  let result = 0;
 
-    const minDividers = [];
+  const minDividers = [];
 
-    for (let i = 1; i <= minNum; i += 1) {
-        if (minNum % i === 0) {
-            minDividers.push(i);
-        }
+  for (let i = 1; i <= minNum; i += 1) {
+    if (minNum % i === 0) {
+      minDividers.push(i);
     }
+  }
 
-    for (let i = 0; i <= minDividers.length - 1; i += 1) {
-        if (maxNum % minDividers[i] === 0 && minDividers[i] > result) {
-            result = minDividers[i];
-        }
+  for (let i = 0; i <= minDividers.length - 1; i += 1) {
+    if (maxNum % minDividers[i] === 0 && minDividers[i] > result) {
+      result = minDividers[i];
     }
+  }
 
-    return [mathtask, result.toString()];
+  return [mathtask, result.toString()];
 };
 
 export default () => modelFunc(question, createTaskAndResult);
