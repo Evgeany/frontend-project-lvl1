@@ -28,10 +28,10 @@ const getResult = (arr, growValue) => {
 const createTaskAndResult = () => {
     const startValue = getRandomInt();
     const growValue = getRandomInt(1, 3);
-    const mathtask = getProgression(startValue, growValue).join(' ');
-    const result = getResult(mathtask, growValue);
+    const mathtask = getProgression(startValue, growValue);
+    const result = getResult(mathtask, growValue).toString();
 
-    return [mathtask, result.toString()];
+    return [mathtask.join(' '), result];
 };
 
 export default () => modelFunc(question, createTaskAndResult);
