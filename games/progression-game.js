@@ -28,7 +28,7 @@ const getResult = (arr, growValue) => {
 const createTaskAndResult = () => {
     const startValue = getRandomInt();
     const growValue = getRandomInt(1, 3);
-    const mathtask = getProgression(startValue, growValue);
+    const mathtask = getProgression(startValue, growValue).join(' ');
     const result = getResult(mathtask, growValue);
 
     return [mathtask, result.toString()];

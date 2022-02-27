@@ -42,7 +42,7 @@
 
 Команда для запуска $ brain-prime
 
-<a href='https://asciinema.org/a/2wYLGDhkZJY8gq8r3AHHNjw69'><img src='https://i2.paste.pics/e4e97579802e358936bf18fac50cafed.png' /></a>
+<a href='https://asciinema.org/a/2wYLGDhkZJY8gq8r3AHHNjw69'><img src='https://i2.paste.pics/e4e97579802e358936bf18fac50cafed.pngs' /></a>
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Evgeany/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Evgeany/frontend-project-lvl1/actions)
